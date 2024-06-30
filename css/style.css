@@ -257,7 +257,7 @@ footer img {
 }
 
 .redes a {
-    font-size: 23px;
+    font-size: 40px;
     display: grid;
     width: 20rem;
     grid-template-rows: 1fr 1fr;
@@ -270,6 +270,8 @@ footer img {
     display: grid;
     grid-template-columns: 10% 20% 20% 20% 20% 10%;
     justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
 }
 
 
