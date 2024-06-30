@@ -46,6 +46,7 @@ body {
     font-weight: bold;
     font-size: 15px;
     height: 1.5rem;
+    transition: 0.3s;
 }
 
 .home {
@@ -61,14 +62,14 @@ body {
 
 .navegacao a:hover {
     transform: scale(1.2);
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .historia {
     width: 100%;
     height: 59rem;
     background-color: black;
-    background-image: url(../imagens/fundo-quadrinho.jpeg);
+    background-image: url(../imagens/fundo-quadrinhos.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100rem;
@@ -102,11 +103,11 @@ body {
 }
 
 .historia-1 {
-    color: #f3f3f3;
-    font-weight: bolder;
+    color: #eeeeee;
+    font-weight: 100;
     font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     background-color: #1b1b1c;
-    border: 2px solid #000;
     border-radius: 20px;
     width: 30rem;
     height: 30rem;
@@ -132,10 +133,10 @@ body {
 }
 
 .historia-2 {
-    color: #f3f3f3;
+    color: #eeeeee;
     background-color: #910909;
     border-radius: 20px;
-    border: 2px solid #000;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     width: 30rem;
     height: 20rem;
     display: flex;
@@ -145,15 +146,16 @@ body {
     padding: 1rem;
     gap: 1rem;
     text-align: justify;
+    font-weight: 100;
 }
 
 .historia-3 {
     background-color: #01203F;
-    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 20px;
     width: 30rem;
     font-size: 1rem;
-    color: #f3f3f3;
+    color: #eeeeee;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,6 +163,7 @@ body {
     gap: 1rem;
     padding: 1rem;
     text-align: justify;
+    font-weight: 100;
 }
 
 .filmes {
